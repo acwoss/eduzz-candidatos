@@ -11,6 +11,11 @@
 |
 */
 
-$router->get('/', function () use ($router) {
-    return $router->app->version();
+use Illuminate\Support\Facades\DB;
+use Illuminate\Http\Request;
+
+$router->get('/', function () {
+    $candidates = DB::table('candidates')->get();
+
+    return view('index', compact('candidates'));
 });
