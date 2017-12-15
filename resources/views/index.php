@@ -2,7 +2,7 @@
 
 <nav>
   <div class="nav-wrapper blue">
-  <a href="/" class="brand-logo center">Eduzz Candidatos</a>
+  <a href="/" class="brand-logo center">Eduzz</a>
   </div>
 </nav>
 
